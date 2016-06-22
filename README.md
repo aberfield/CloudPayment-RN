@@ -1,5 +1,5 @@
 # CloudPayment-RN
-云缴费话费充值React-Native实现
+云缴费话费充值React-Native实现(android平台没测试)
 
 下载项目
 $ cd ~/Desktop
