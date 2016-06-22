@@ -28,22 +28,11 @@ RCT_EXPORT_METHOD(addPaymentEvent:(NSDictionary*)orderInfoDic callback:(RCTRespo
   AppDelegate *app = (AppDelegate*)[UIApplication sharedApplication].delegate;
   [app payReqWith:model];
   app.payFinishBlock = ^(NSInteger payFinishCode){
+    //因为没有填写相应微信APPId，所以跳转不到微信，这里也肯定是收不到回调的。
     callback(@[[NSString stringWithFormat:@"%ld",(long)payFinishCode]]);
   };
-}
-
-RCT_EXPORT_METHOD(findEvents:(NSDictionary*)orderInfoDic callback:(RCTResponseSenderBlock)callback)
-{
-  NSArray *events = @[@"1",@"2"];
-  callback(@[[NSNull null], events]);
-}
-
-
-- (void)paymentFinishEvent:(NSNotification*)notification
-{
-  NSString *eventName = notification.userInfo[@"name"];
-  [self.bridge.eventDispatcher sendAppEventWithName:@"EventReminder" body:@{@"name":eventName}];
-  
+  //如果设置了微信相关信息，可以把这里给注释掉呢
+  callback(@[@"0"]);
 }
 
 @end

@@ -15,7 +15,7 @@ import OrderDetail from "./OrderDetail";
 import ResultPage from "./ResultPage";
 import Tips from "./Tips";
 import OrderSearch from "./OrderSearch";
-import Config from "./config";
+import Config from "./Config";
 import Public from "./Public";
 const {width, height} = Dimensions.get('window');
 

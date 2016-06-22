@@ -7,12 +7,15 @@
 //  Copyright © 2015年 NNK. All rights reserved.
 //
 
-#define APP_ID          @"wx0c95e99989149e5d"               //APPID
-#define APP_SECRET      @"80ed42921fdcd9c2c80c440b46127489" //appsecret
+
+#warning //这是我公司的微信App-Id和秘钥，我肯定不会告诉你啦,哈哈哈哈
+#define APP_ID          @""               //APPID
+#define APP_SECRET      @""               //appsecret
 //商户号，填写商户对应参数
-#define MCH_ID          @"1277792301"
+#define MCH_ID          @""
 //商户API密钥，填写相应参数
-#define PARTNER_ID      @"NNK007KA201510222015102220151022"
+#define PARTNER_ID      @""
+
 //支付结果回调页面
 #define NOTIFY_URL      @"http://wxpay.weixin.qq.com/pub_v2/pay/notify.v2.php"
 //获取服务器端支付数据地址（商户自定义）

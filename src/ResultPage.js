@@ -8,7 +8,7 @@ import {
 	ScrollView,
 	TouchableOpacity,
 } from 'react-native';
-import Config from './config';
+import Config from './Config';
 
 class ResultPage extends Component {
 	constructor(props) {

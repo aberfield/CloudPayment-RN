@@ -10,7 +10,7 @@ import {
 	Alert,
 } from 'react-native';
 import ResultPage from "./ResultPage";
-import Config from "./config";
+import Config from "./Config";
 var JSBridgeManager = require('react-native').NativeModules.JSBridgeManage;
 var { NativeAppEventEmitter } = require('react-native');
 

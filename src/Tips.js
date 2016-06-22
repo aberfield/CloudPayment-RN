@@ -16,7 +16,7 @@ class Tip extends Component {
   _openPhoneChargePage() {
     this.props.navigator.push({
       title:'话费充值',
-      component:DatePickerView,
+      component:ListViewModule,
     })
   }
 

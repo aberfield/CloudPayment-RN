@@ -24,7 +24,6 @@
 		0F58F3391D1387D900222C23 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F58F3381D1387D900222C23 /* libz.tbd */; };
 		0F58F33E1D138A4600222C23 /* AppDelegate+ShareLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F58F33D1D138A4600222C23 /* AppDelegate+ShareLogin.m */; };
 		0F58F3421D138ABB00222C23 /* StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F58F3411D138ABB00222C23 /* StringHelper.m */; };
-		0F58F34B1D138F7300222C23 /* TXAPiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F58F34A1D138F7300222C23 /* TXAPiModel.m */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
@@ -144,8 +143,6 @@
 		0F58F33F1D138AB000222C23 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
 		0F58F3401D138ABB00222C23 /* StringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringHelper.h; sourceTree = "<group>"; };
 		0F58F3411D138ABB00222C23 /* StringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringHelper.m; sourceTree = "<group>"; };
-		0F58F3491D138F7300222C23 /* TXAPiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXAPiModel.h; sourceTree = "<group>"; };
-		0F58F34A1D138F7300222C23 /* TXAPiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXAPiModel.m; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* CloudPaymentProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudPaymentProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -293,8 +290,6 @@
 		0F58F33B1D138A3D00222C23 /* WxPay */ = {
 			isa = PBXGroup;
 			children = (
-				0F58F3491D138F7300222C23 /* TXAPiModel.h */,
-				0F58F34A1D138F7300222C23 /* TXAPiModel.m */,
 				0F58F33F1D138AB000222C23 /* common.h */,
 				0F58F3401D138ABB00222C23 /* StringHelper.h */,
 				0F58F3411D138ABB00222C23 /* StringHelper.m */,
@@ -467,7 +462,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -710,7 +705,6 @@
 				0F58F3261D12BE9100222C23 /* JSBridgeManage.m in Sources */,
 				0F58F33E1D138A4600222C23 /* AppDelegate+ShareLogin.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
-				0F58F34B1D138F7300222C23 /* TXAPiModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -748,6 +742,7 @@
 				INFOPLIST_FILE = CloudPaymentProjectTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudPaymentProject.app/CloudPaymentProject";
 			};
@@ -761,6 +756,7 @@
 				INFOPLIST_FILE = CloudPaymentProjectTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudPaymentProject.app/CloudPaymentProject";
 			};
@@ -788,6 +784,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = CloudPaymentProject;
 			};
 			name = Debug;
@@ -813,6 +810,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = CloudPaymentProject;
 			};
 			name = Release;
@@ -837,6 +835,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;

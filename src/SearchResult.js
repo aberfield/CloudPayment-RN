@@ -7,7 +7,7 @@ import {
   ListView,
   TouchableOpacity,
 } from 'react-native';
-import Config from './config';
+import Config from './Config';
 
 
 class SearchResult extends Component {
