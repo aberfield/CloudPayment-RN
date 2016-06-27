@@ -29,8 +29,6 @@ class OrderDetail extends Component {
 	}
 
 
-
-
 	_orderPayment() {
 		fetch('http://wap.007ka.cn/NNkweixinPayers/weixinPayApp/jsApiParameters.php', {
 			method: 'POST',

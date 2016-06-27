@@ -1,41 +1,189 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/usr/local/Cellar/node/4.1.2/bin/node',
 1 verbose cli   '/usr/local/bin/npm',
-1 verbose cli   'start',
-1 verbose cli   '--',
-1 verbose cli   '--reset-cache' ]
+1 verbose cli   'install',
+1 verbose cli   'jpush-react-native',
+1 verbose cli   '--save' ]
 2 info using npm@2.14.6
 3 info using node@v4.1.2
-4 verbose run-script [ 'prestart', 'start', 'poststart' ]
-5 info prestart CloudPaymentProject@0.0.1
-6 info start CloudPaymentProject@0.0.1
-7 verbose unsafe-perm in lifecycle true
-8 info CloudPaymentProject@0.0.1 Failed to exec start script
-9 verbose stack Error: CloudPaymentProject@0.0.1 start: `node node_modules/react-native/local-cli/cli.js start "--reset-cache"`
-9 verbose stack Exit status 1
-9 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
-9 verbose stack     at emitTwo (events.js:87:13)
-9 verbose stack     at EventEmitter.emit (events.js:172:7)
-9 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
-9 verbose stack     at emitTwo (events.js:87:13)
-9 verbose stack     at ChildProcess.emit (events.js:172:7)
-9 verbose stack     at maybeClose (internal/child_process.js:818:16)
-9 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
-10 verbose pkgid CloudPaymentProject@0.0.1
-11 verbose cwd /Users/liufangyou/Desktop/CloudPayment-RN
-12 error Darwin 15.0.0
-13 error argv "/usr/local/Cellar/node/4.1.2/bin/node" "/usr/local/bin/npm" "start" "--" "--reset-cache"
-14 error node v4.1.2
-15 error npm  v2.14.6
-16 error code ELIFECYCLE
-17 error CloudPaymentProject@0.0.1 start: `node node_modules/react-native/local-cli/cli.js start "--reset-cache"`
-17 error Exit status 1
-18 error Failed at the CloudPaymentProject@0.0.1 start script 'node node_modules/react-native/local-cli/cli.js start "--reset-cache"'.
-18 error This is most likely a problem with the CloudPaymentProject package,
-18 error not with npm itself.
-18 error Tell the author that this fails on your system:
-18 error     node node_modules/react-native/local-cli/cli.js start "--reset-cache"
-18 error You can get their info via:
-18 error     npm owner ls CloudPaymentProject
-18 error There is likely additional logging output above.
-19 verbose exit [ 1, true ]
+4 verbose install initial load of /Users/liufangyou/Desktop/CloudPayment-RN/package.json
+5 verbose installManyTop reading scoped package data from /Users/liufangyou/Desktop/CloudPayment-RN/node_modules/react/package.json
+6 verbose installManyTop reading scoped package data from /Users/liufangyou/Desktop/CloudPayment-RN/node_modules/react-native/package.json
+7 verbose installManyTop reading scoped package data from /Users/liufangyou/Desktop/CloudPayment-RN/node_modules/react-native-datepicker/package.json
+8 verbose installManyTop reading scoped package data from /Users/liufangyou/Desktop/CloudPayment-RN/node_modules/react-native-datetime/package.json
+9 verbose readDependencies loading dependencies from /Users/liufangyou/Desktop/CloudPayment-RN/package.json
+10 silly cache add args [ 'jpush-react-native', null ]
+11 verbose cache add spec jpush-react-native
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: 'jpush-react-native',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'jpush-react-native',
+12 silly cache add   rawSpec: '',
+12 silly cache add   spec: '*',
+12 silly cache add   type: 'range' }
+13 silly addNamed jpush-react-native@*
+14 verbose addNamed "*" is a valid semver range for jpush-react-native
+15 silly addNameRange { name: 'jpush-react-native', range: '*', hasData: false }
+16 silly mapToRegistry name jpush-react-native
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npm.taobao.org/
+19 silly mapToRegistry uri https://registry.npm.taobao.org/jpush-react-native
+20 verbose addNameRange registry:https://registry.npm.taobao.org/jpush-react-native not in flight; fetching
+21 verbose request uri https://registry.npm.taobao.org/jpush-react-native
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 17:21:34
+24 verbose request id 9f6215e4f7763178
+25 verbose etag "2f19-+3UBRbh84Y7i8uHK5BYYtA"
+26 http request GET https://registry.npm.taobao.org/jpush-react-native
+27 http 304 https://registry.npm.taobao.org/jpush-react-native
+28 verbose headers { date: 'Thu, 23 Jun 2016 09:21:35 GMT',
+28 verbose headers   connection: 'keep-alive',
+28 verbose headers   etag: '"2f19-+3UBRbh84Y7i8uHK5BYYtA"',
+28 verbose headers   'x-readtime': '300' }
+29 silly get cb [ 304,
+29 silly get   { date: 'Thu, 23 Jun 2016 09:21:35 GMT',
+29 silly get     connection: 'keep-alive',
+29 silly get     etag: '"2f19-+3UBRbh84Y7i8uHK5BYYtA"',
+29 silly get     'x-readtime': '300' } ]
+30 verbose etag https://registry.npm.taobao.org/jpush-react-native from cache
+31 verbose get saving jpush-react-native to /Users/liufangyou/.npm/registry.npm.taobao.org/jpush-react-native/.cache.json
+32 silly addNameRange number 2 { name: 'jpush-react-native', range: '*', hasData: true }
+33 silly addNameRange versions [ 'jpush-react-native',
+33 silly addNameRange   [ '0.0.5', '0.0.4', '0.0.3', '0.0.2', '0.0.1' ] ]
+34 silly addNamed jpush-react-native@0.0.5
+35 verbose addNamed "0.0.5" is a plain semver version for jpush-react-native
+36 silly cache afterAdd jpush-react-native@0.0.5
+37 verbose afterAdd /Users/liufangyou/.npm/jpush-react-native/0.0.5/package/package.json not in flight; writing
+38 verbose afterAdd /Users/liufangyou/.npm/jpush-react-native/0.0.5/package/package.json written
+39 silly install resolved [ { name: 'jpush-react-native',
+39 silly install resolved     version: '0.0.5',
+39 silly install resolved     description: 'a jpush plugin for react native application',
+39 silly install resolved     main: 'index.js',
+39 silly install resolved     scripts: { test: 'make test' },
+39 silly install resolved     repository:
+39 silly install resolved      { type: 'git',
+39 silly install resolved        url: 'git+https://github.com/KenChoi1992/react-native-jpush.git' },
+39 silly install resolved     keywords: [ 'react', 'native', 'jpush' ],
+39 silly install resolved     author: { name: 'KenChoi' },
+39 silly install resolved     license: 'ISC',
+39 silly install resolved     bugs: { url: 'https://github.com/KenChoi1992/react-native-jpush/issues' },
+39 silly install resolved     homepage: 'https://github.com/KenChoi1992/react-native-jpush#readme',
+39 silly install resolved     gitHead: '17f7e5776f5e5dab833a0827cfb23d876cd90080',
+39 silly install resolved     _id: 'jpush-react-native@0.0.5',
+39 silly install resolved     _shasum: '95e2622a1f62f44624d51edac61a74f34216eba4',
+39 silly install resolved     _from: 'jpush-react-native@*',
+39 silly install resolved     _npmVersion: '3.3.12',
+39 silly install resolved     _nodeVersion: '5.5.0',
+39 silly install resolved     _npmUser: { name: 'kenchoi', email: 'caiyg@jpush.cn' },
+39 silly install resolved     dist:
+39 silly install resolved      { shasum: '95e2622a1f62f44624d51edac61a74f34216eba4',
+39 silly install resolved        size: 7040874,
+39 silly install resolved        noattachment: false,
+39 silly install resolved        tarball: 'http://registry.npm.taobao.org/jpush-react-native/download/jpush-react-native-0.0.5.tgz' },
+39 silly install resolved     maintainers: [ [Object], [Object] ],
+39 silly install resolved     _npmOperationalInternal:
+39 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+39 silly install resolved        tmp: 'tmp/jpush-react-native-0.0.5.tgz_1464578339128_0.7602908904664218' },
+39 silly install resolved     directories: {},
+39 silly install resolved     publish_time: 1464578339707,
+39 silly install resolved     _cnpm_publish_time: 1464578339707,
+39 silly install resolved     _resolved: 'https://registry.npm.taobao.org/jpush-react-native/download/jpush-react-native-0.0.5.tgz',
+39 silly install resolved     readme: 'ERROR: No README data found!' } ]
+40 info install jpush-react-native@0.0.5 into /Users/liufangyou/Desktop/CloudPayment-RN
+41 info installOne jpush-react-native@0.0.5
+42 verbose installOne of jpush-react-native to /Users/liufangyou/Desktop/CloudPayment-RN not in flight; installing
+43 verbose lock using /Users/liufangyou/.npm/_locks/jpush-react-native-209104aa7e38db79.lock for /Users/liufangyou/Desktop/CloudPayment-RN/node_modules/jpush-react-native
+44 silly install write writing jpush-react-native 0.0.5 to /Users/liufangyou/Desktop/CloudPayment-RN/node_modules/jpush-react-native
+45 verbose unbuild node_modules/jpush-react-native
+46 silly gentlyRm /Users/liufangyou/Desktop/CloudPayment-RN/node_modules/jpush-react-native is being purged from base /Users/liufangyou/Desktop/CloudPayment-RN
+47 verbose gentlyRm don't care about contents; nuking /Users/liufangyou/Desktop/CloudPayment-RN/node_modules/jpush-react-native
+48 verbose tar unpack /Users/liufangyou/.npm/jpush-react-native/0.0.5/package.tgz
+49 verbose tar unpacking to /Users/liufangyou/Desktop/CloudPayment-RN/node_modules/jpush-react-native
+50 silly gentlyRm /Users/liufangyou/Desktop/CloudPayment-RN/node_modules/jpush-react-native is being purged
+51 verbose gentlyRm don't care about contents; nuking /Users/liufangyou/Desktop/CloudPayment-RN/node_modules/jpush-react-native
+52 silly gunzTarPerm modes [ '755', '644' ]
+53 silly gunzTarPerm extractEntry package.json
+54 silly gunzTarPerm extractEntry .npmignore
+55 silly gunzTarPerm extractEntry README.md
+56 silly gunzTarPerm extractEntry index.js
+57 silly gunzTarPerm extractEntry android/build.gradle
+58 silly gunzTarPerm extractEntry android/libs/arm64-v8a/libjpush215.so
+59 silly gunzTarPerm extractEntry android/libs/armeabi/libjpush215.so
+60 silly gunzTarPerm extractEntry android/libs/armeabi-v7a/libjpush215.so
+61 silly gunzTarPerm extractEntry android/libs/jpush-android-2.1.5.jar
+62 silly gunzTarPerm extractEntry android/libs/mips/libjpush215.so
+63 silly gunzTarPerm extractEntry android/libs/mips64/libjpush215.so
+64 silly gunzTarPerm extractEntry android/libs/x86/libjpush215.so
+65 silly gunzTarPerm extractEntry android/libs/x86_64/libjpush215.so
+66 silly gunzTarPerm extractEntry android/proguard-rules.pro
+67 silly gunzTarPerm extractEntry android/src/main/AndroidManifest.xml
+68 silly gunzTarPerm extractEntry android/src/main/java/cn/jpush/reactnativejpush/ExampleUtil.java
+69 silly gunzTarPerm extractEntry android/src/main/java/cn/jpush/reactnativejpush/IdHelper.java
+70 silly gunzTarPerm extractEntry android/src/main/java/cn/jpush/reactnativejpush/JPushModule.java
+71 silly gunzTarPerm extractEntry android/src/main/java/cn/jpush/reactnativejpush/JPushPackage.java
+72 silly gunzTarPerm extractEntry android/src/main/res/drawable-hdpi/ic_richpush_actionbar_divider.png
+73 silly gunzTarPerm extractEntry android/src/main/res/drawable-hdpi/border_bg.9.png
+74 silly gunzTarPerm extractEntry android/src/main/res/drawable-hdpi/corners_bg.xml
+75 silly gunzTarPerm extractEntry android/src/main/res/drawable-hdpi/ic_launcher.png
+76 silly gunzTarPerm extractEntry android/src/main/res/drawable-hdpi/ic_richpush_actionbar_back.png
+77 silly gunzTarPerm extractEntry android/src/main/res/drawable-hdpi/bottom_bg.9.png
+78 silly gunzTarPerm extractEntry android/src/main/res/drawable-hdpi/jpush_notification_icon.png
+79 silly gunzTarPerm extractEntry android/src/main/res/drawable-hdpi/richpush_btn_selector.xml
+80 silly gunzTarPerm extractEntry android/src/main/res/drawable-hdpi/stripes.png
+81 silly gunzTarPerm extractEntry android/src/main/res/drawable-hdpi/tiledstripes.xml
+82 silly gunzTarPerm extractEntry android/src/main/res/drawable-hdpi/top_bg.9.png
+83 silly gunzTarPerm extractEntry android/src/main/res/drawable-mdpi/ic_launcher.png
+84 silly gunzTarPerm extractEntry android/src/main/res/drawable-xhdpi/ic_launcher.png
+85 silly gunzTarPerm extractEntry android/src/main/res/drawable-xxhdpi/ic_launcher.png
+86 silly gunzTarPerm extractEntry android/src/main/res/layout/customer_notitfication_layout.xml
+87 silly gunzTarPerm extractEntry android/src/main/res/layout/customer_notitfication_layout_one.xml
+88 silly gunzTarPerm extractEntry android/src/main/res/layout/jpush_popwin_layout.xml
+89 silly gunzTarPerm extractEntry android/src/main/res/layout/jpush_webview_layout.xml
+90 silly gunzTarPerm extractEntry android/src/main/res/layout/push_set_dialog.xml
+91 silly gunzTarPerm extractEntry android/src/main/res/layout/set_push_time.xml
+92 silly gunzTarPerm extractEntry android/src/main/res/values/colors.xml
+93 silly gunzTarPerm extractEntry android/src/main/res/values/jpush_style.xml
+94 silly gunzTarPerm extractEntry android/src/main/res/values/strings.xml
+95 silly gunzTarPerm extractEntry android/src/main/res/values/styles.xml
+96 silly gunzTarPerm extractEntry ios/RCTJPushModule/RCTJPushModule/JPUSHService.h
+97 silly gunzTarPerm extractEntry ios/RCTJPushModule/RCTJPushModule/RCTJPushModule.h
+98 silly gunzTarPerm extractEntry ios/RCTJPushModule/RCTJPushModule/RCTJPushModule.m
+99 silly gunzTarPerm extractEntry ios/RCTJPushModule/RCTJPushModule/jpush-ios-2.1.7.a
+100 silly gunzTarPerm extractEntry ios/RCTJPushModule/RCTJPushModule.xcodeproj/project.pbxproj
+101 silly gunzTarPerm extractEntry ios/RCTJPushModule/RCTJPushModule.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+102 verbose write writing to /Users/liufangyou/Desktop/CloudPayment-RN/node_modules/jpush-react-native/package.json
+103 info preinstall jpush-react-native@0.0.5
+104 verbose readDependencies loading dependencies from /Users/liufangyou/Desktop/CloudPayment-RN/node_modules/jpush-react-native/package.json
+105 verbose readDependencies loading dependencies from /Users/liufangyou/Desktop/CloudPayment-RN/node_modules/jpush-react-native/package.json
+106 silly install resolved []
+107 verbose about to build /Users/liufangyou/Desktop/CloudPayment-RN/node_modules/jpush-react-native
+108 info build /Users/liufangyou/Desktop/CloudPayment-RN/node_modules/jpush-react-native
+109 info linkStuff jpush-react-native@0.0.5
+110 silly linkStuff jpush-react-native@0.0.5 has /Users/liufangyou/Desktop/CloudPayment-RN/node_modules as its parent node_modules
+111 verbose linkBins jpush-react-native@0.0.5
+112 verbose linkMans jpush-react-native@0.0.5
+113 verbose rebuildBundles jpush-react-native@0.0.5
+114 info install jpush-react-native@0.0.5
+115 info postinstall jpush-react-native@0.0.5
+116 verbose unlock done using /Users/liufangyou/.npm/_locks/jpush-react-native-209104aa7e38db79.lock for /Users/liufangyou/Desktop/CloudPayment-RN/node_modules/jpush-react-native
+117 verbose validateInstall loading /Users/liufangyou/Desktop/CloudPayment-RN/package.json for validation
+118 verbose stack Error: The package react@15.1.0 does not satisfy its siblings' peerDependencies requirements!
+118 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+118 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+118 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+118 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+118 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+118 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+118 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+118 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+118 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+118 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+119 verbose cwd /Users/liufangyou/Desktop/CloudPayment-RN
+120 error Darwin 15.5.0
+121 error argv "/usr/local/Cellar/node/4.1.2/bin/node" "/usr/local/bin/npm" "install" "jpush-react-native" "--save"
+122 error node v4.1.2
+123 error npm  v2.14.6
+124 error code EPEERINVALID
+125 error peerinvalid The package react@15.1.0 does not satisfy its siblings' peerDependencies requirements!
+125 error peerinvalid Peer react-native@0.26.3 wants react@15.0.2
+126 verbose exit [ 1, true ]

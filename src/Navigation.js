@@ -13,16 +13,18 @@ import {
 import PhoneCharge from "./PhoneCharge";
 
 const defaultRoute = {
-  component: PhoneCharge
+  component: PhoneCharge	//定义Navigator根视图
 };
 
 class Navigation extends Component {
+	//在pop push jump 的状态下传递name，component参数
 	_renderScene(route, navigator){
 		let Component = route.component;
 		return (
 			<Component {...route.params} navigator={navigator} />
 			);
 	}
+	//NavigationBar的样式
 	_renderNavBar() {
 		const styles = {
 			title: {

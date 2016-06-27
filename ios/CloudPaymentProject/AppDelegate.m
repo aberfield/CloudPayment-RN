@@ -12,12 +12,23 @@
 
 #import "RCTRootView.h"
 
+#import "JPUSHService.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   [self setupLoginSDK];
 
+  
+  if ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0) {
+    //可以添加自定义categories
+    [JPUSHService registerForRemoteNotificationTypes:(UIUserNotificationTypeBadge |
+                                                      UIUserNotificationTypeSound |
+                                                      UIUserNotificationTypeAlert)
+                                          categories:nil];
+  }
+  
   NSURL *jsCodeLocation;
 
   /**

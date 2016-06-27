@@ -32,7 +32,8 @@ RCT_EXPORT_METHOD(addPaymentEvent:(NSDictionary*)orderInfoDic callback:(RCTRespo
     callback(@[[NSString stringWithFormat:@"%ld",(long)payFinishCode]]);
   };
   //如果设置了微信相关信息，可以把这里给注释掉呢
-  callback(@[@"0"]);
+//  callback(@[@"0"]);
+  
 }
 
 @end
