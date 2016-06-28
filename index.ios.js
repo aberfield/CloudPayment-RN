@@ -20,6 +20,6 @@ class CloudPaymentProject extends Component {
   }
 }
 
-AppRegistry.registerComponent('CloudPaymentProject', () => CloudPaymentProject);
+AppRegistry.registerComponent('CloudPaymentProject', () => Navigation);
 
 

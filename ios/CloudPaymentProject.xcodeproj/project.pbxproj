@@ -13,18 +13,15 @@
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* CloudPaymentProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CloudPaymentProjectTests.m */; };
-		0F3ED04E1D1BE22000814876 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3ED04D1D1BE22000814876 /* Security.framework */; };
-		0F58F3261D12BE9100222C23 /* JSBridgeManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F58F3251D12BE9100222C23 /* JSBridgeManage.m */; };
-		0F58F32C1D1386C900222C23 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F58F3281D1386C900222C23 /* libWeChatSDK.a */; };
-		0F58F32D1D1386C900222C23 /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0F58F3291D1386C900222C23 /* read_me.txt */; };
-		0F58F32F1D13876700222C23 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F58F32E1D13876700222C23 /* libsqlite3.0.tbd */; };
-		0F58F3311D13877000222C23 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F58F3301D13877000222C23 /* SystemConfiguration.framework */; };
-		0F58F3331D13877A00222C23 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F58F3321D13877A00222C23 /* libc++.tbd */; };
-		0F58F3351D13878700222C23 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F58F3341D13878700222C23 /* CoreTelephony.framework */; };
-		0F58F3371D13878E00222C23 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F58F3361D13878E00222C23 /* AVFoundation.framework */; };
-		0F58F3391D1387D900222C23 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F58F3381D1387D900222C23 /* libz.tbd */; };
-		0F58F33E1D138A4600222C23 /* AppDelegate+ShareLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F58F33D1D138A4600222C23 /* AppDelegate+ShareLogin.m */; };
-		0F58F3421D138ABB00222C23 /* StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F58F3411D138ABB00222C23 /* StringHelper.m */; };
+		0F21EB8C1D225F310001BF11 /* AppDelegate+ShareLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F21EB881D225F310001BF11 /* AppDelegate+ShareLogin.m */; };
+		0F21EB8D1D225F310001BF11 /* StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F21EB8B1D225F310001BF11 /* StringHelper.m */; };
+		0F21EB9D1D225F4D0001BF11 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F21EB991D225F4D0001BF11 /* libWeChatSDK.a */; };
+		0F21EB9E1D225F4D0001BF11 /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0F21EB9A1D225F4D0001BF11 /* read_me.txt */; };
+		0F21EBA01D2260240001BF11 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F21EB9F1D2260240001BF11 /* SystemConfiguration.framework */; };
+		0F21EBA21D22602C0001BF11 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F21EBA11D22602C0001BF11 /* libz.tbd */; };
+		0F21EBA41D2260370001BF11 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F21EBA31D2260370001BF11 /* libsqlite3.0.tbd */; };
+		0F21EBA61D2260500001BF11 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F21EBA51D2260500001BF11 /* CoreTelephony.framework */; };
+		0F21EBAA1D2267060001BF11 /* JSBridgeManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F21EBA91D2267060001BF11 /* JSBridgeManage.m */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
@@ -33,9 +30,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		74D4CD431D2B42F016D9BD7F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1475A9F29838C0A1F83D9E /* libPods.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		A6174CFCE6DB4106BD8A8136 /* libRCTJPushModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1A0A6FCCC742FA95699965 /* libRCTJPushModule.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,13 +75,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = CloudPaymentProject;
-		};
-		0F3ED0441D1BE1C800814876 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F32DD143C07F4A058CDE7BE7 /* RCTJPushModule.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6280980A1CEDC407000D3A81;
-			remoteInfo = RCTJPushModule;
 		};
 		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -135,24 +123,21 @@
 		00E356EE1AD99517003FC87E /* CloudPaymentProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudPaymentProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* CloudPaymentProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudPaymentProjectTests.m; sourceTree = "<group>"; };
-		0F3ED04D1D1BE22000814876 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		0F58F3241D12BE9100222C23 /* JSBridgeManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBridgeManage.h; sourceTree = "<group>"; };
-		0F58F3251D12BE9100222C23 /* JSBridgeManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBridgeManage.m; sourceTree = "<group>"; };
-		0F58F3281D1386C900222C23 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		0F58F3291D1386C900222C23 /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
-		0F58F32A1D1386C900222C23 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		0F58F32B1D1386C900222C23 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
-		0F58F32E1D13876700222C23 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		0F58F3301D13877000222C23 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		0F58F3321D13877A00222C23 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		0F58F3341D13878700222C23 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		0F58F3361D13878E00222C23 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		0F58F3381D1387D900222C23 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		0F58F33C1D138A4600222C23 /* AppDelegate+ShareLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+ShareLogin.h"; sourceTree = "<group>"; };
-		0F58F33D1D138A4600222C23 /* AppDelegate+ShareLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+ShareLogin.m"; sourceTree = "<group>"; };
-		0F58F33F1D138AB000222C23 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
-		0F58F3401D138ABB00222C23 /* StringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringHelper.h; sourceTree = "<group>"; };
-		0F58F3411D138ABB00222C23 /* StringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringHelper.m; sourceTree = "<group>"; };
+		0F21EB871D225F310001BF11 /* AppDelegate+ShareLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+ShareLogin.h"; sourceTree = "<group>"; };
+		0F21EB881D225F310001BF11 /* AppDelegate+ShareLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+ShareLogin.m"; sourceTree = "<group>"; };
+		0F21EB891D225F310001BF11 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		0F21EB8A1D225F310001BF11 /* StringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringHelper.h; sourceTree = "<group>"; };
+		0F21EB8B1D225F310001BF11 /* StringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringHelper.m; sourceTree = "<group>"; };
+		0F21EB991D225F4D0001BF11 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		0F21EB9A1D225F4D0001BF11 /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		0F21EB9B1D225F4D0001BF11 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		0F21EB9C1D225F4D0001BF11 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		0F21EB9F1D2260240001BF11 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0F21EBA11D22602C0001BF11 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0F21EBA31D2260370001BF11 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		0F21EBA51D2260500001BF11 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0F21EBA81D2267060001BF11 /* JSBridgeManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBridgeManage.h; sourceTree = "<group>"; };
+		0F21EBA91D2267060001BF11 /* JSBridgeManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBridgeManage.m; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* CloudPaymentProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudPaymentProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,13 +148,8 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CloudPaymentProject/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CloudPaymentProject/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		21A6F8A280D694DB874B63D2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		2C16284D12DBFA8F4069D188 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		3B1475A9F29838C0A1F83D9E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D1A0A6FCCC742FA95699965 /* libRCTJPushModule.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTJPushModule.a; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		F32DD143C07F4A058CDE7BE7 /* RCTJPushModule.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTJPushModule.xcodeproj; path = "../node_modules/jpush-react-native/ios/RCTJPushModule/RCTJPushModule.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,26 +164,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F3ED04E1D1BE22000814876 /* Security.framework in Frameworks */,
-				0F58F3351D13878700222C23 /* CoreTelephony.framework in Frameworks */,
-				0F58F3391D1387D900222C23 /* libz.tbd in Frameworks */,
-				0F58F3371D13878E00222C23 /* AVFoundation.framework in Frameworks */,
-				0F58F3331D13877A00222C23 /* libc++.tbd in Frameworks */,
-				0F58F3311D13877000222C23 /* SystemConfiguration.framework in Frameworks */,
-				0F58F32F1D13876700222C23 /* libsqlite3.0.tbd in Frameworks */,
+				0F21EBA61D2260500001BF11 /* CoreTelephony.framework in Frameworks */,
+				0F21EBA41D2260370001BF11 /* libsqlite3.0.tbd in Frameworks */,
+				0F21EBA21D22602C0001BF11 /* libz.tbd in Frameworks */,
+				0F21EBA01D2260240001BF11 /* SystemConfiguration.framework in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
-				0F58F32C1D1386C900222C23 /* libWeChatSDK.a in Frameworks */,
+				0F21EB9D1D225F4D0001BF11 /* libWeChatSDK.a in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				74D4CD431D2B42F016D9BD7F /* libPods.a in Frameworks */,
-				A6174CFCE6DB4106BD8A8136 /* libRCTJPushModule.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,58 +242,36 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0F3ED03E1D1BE1C800814876 /* Products */ = {
+		0F21EB861D225F310001BF11 /* WxPay */ = {
 			isa = PBXGroup;
 			children = (
-				0F3ED0451D1BE1C800814876 /* libRCTJPushModule.a */,
+				0F21EB871D225F310001BF11 /* AppDelegate+ShareLogin.h */,
+				0F21EB881D225F310001BF11 /* AppDelegate+ShareLogin.m */,
+				0F21EB891D225F310001BF11 /* common.h */,
+				0F21EB8A1D225F310001BF11 /* StringHelper.h */,
+				0F21EB8B1D225F310001BF11 /* StringHelper.m */,
 			);
-			name = Products;
+			path = WxPay;
 			sourceTree = "<group>";
 		};
-		0F58F3191D12BE2700222C23 /* JSBridgeModule */ = {
+		0F21EB981D225F4D0001BF11 /* SDKExport */ = {
 			isa = PBXGroup;
 			children = (
-				0F58F3241D12BE9100222C23 /* JSBridgeManage.h */,
-				0F58F3251D12BE9100222C23 /* JSBridgeManage.m */,
+				0F21EB991D225F4D0001BF11 /* libWeChatSDK.a */,
+				0F21EB9A1D225F4D0001BF11 /* read_me.txt */,
+				0F21EB9B1D225F4D0001BF11 /* WXApi.h */,
+				0F21EB9C1D225F4D0001BF11 /* WXApiObject.h */,
 			);
-			path = JSBridgeModule;
-			sourceTree = "<group>";
-		};
-		0F58F3271D1386C900222C23 /* WePaySDK */ = {
-			isa = PBXGroup;
-			children = (
-				0F58F3281D1386C900222C23 /* libWeChatSDK.a */,
-				0F58F3291D1386C900222C23 /* read_me.txt */,
-				0F58F32A1D1386C900222C23 /* WXApi.h */,
-				0F58F32B1D1386C900222C23 /* WXApiObject.h */,
-			);
-			name = WePaySDK;
 			path = SDKExport;
 			sourceTree = "<group>";
 		};
-		0F58F33A1D13887700222C23 /* Framework */ = {
+		0F21EBA71D2267060001BF11 /* JSBridgeModule */ = {
 			isa = PBXGroup;
 			children = (
-				0F58F3381D1387D900222C23 /* libz.tbd */,
-				0F58F3361D13878E00222C23 /* AVFoundation.framework */,
-				0F58F3341D13878700222C23 /* CoreTelephony.framework */,
-				0F58F3321D13877A00222C23 /* libc++.tbd */,
-				0F58F3301D13877000222C23 /* SystemConfiguration.framework */,
-				0F58F32E1D13876700222C23 /* libsqlite3.0.tbd */,
+				0F21EBA81D2267060001BF11 /* JSBridgeManage.h */,
+				0F21EBA91D2267060001BF11 /* JSBridgeManage.m */,
 			);
-			path = Framework;
-			sourceTree = "<group>";
-		};
-		0F58F33B1D138A3D00222C23 /* WxPay */ = {
-			isa = PBXGroup;
-			children = (
-				0F58F33F1D138AB000222C23 /* common.h */,
-				0F58F3401D138ABB00222C23 /* StringHelper.h */,
-				0F58F3411D138ABB00222C23 /* StringHelper.m */,
-				0F58F33C1D138A4600222C23 /* AppDelegate+ShareLogin.h */,
-				0F58F33D1D138A4600222C23 /* AppDelegate+ShareLogin.m */,
-			);
-			path = WxPay;
+			path = JSBridgeModule;
 			sourceTree = "<group>";
 		};
 		139105B71AF99BAD00B5F7CC /* Products */ = {
@@ -340,9 +293,9 @@
 		13B07FAE1A68108700A75B9A /* CloudPaymentProject */ = {
 			isa = PBXGroup;
 			children = (
-				0F58F3271D1386C900222C23 /* WePaySDK */,
-				0F58F3191D12BE2700222C23 /* JSBridgeModule */,
-				0F58F33B1D138A3D00222C23 /* WxPay */,
+				0F21EBA71D2267060001BF11 /* JSBridgeModule */,
+				0F21EB981D225F4D0001BF11 /* SDKExport */,
+				0F21EB861D225F310001BF11 /* WxPay */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -383,7 +336,6 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				F32DD143C07F4A058CDE7BE7 /* RCTJPushModule.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -399,13 +351,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				0F21EBA51D2260500001BF11 /* CoreTelephony.framework */,
+				0F21EBA31D2260370001BF11 /* libsqlite3.0.tbd */,
+				0F21EBA11D22602C0001BF11 /* libz.tbd */,
+				0F21EB9F1D2260240001BF11 /* SystemConfiguration.framework */,
 				13B07FAE1A68108700A75B9A /* CloudPaymentProject */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* CloudPaymentProjectTests */,
-				0F58F33A1D13887700222C23 /* Framework */,
 				83CBBA001A601CBA00E9B192 /* Products */,
-				9762BB340CA63A52071FE615 /* Pods */,
-				A1A6B7A5256F8FF930642815 /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -418,24 +371,6 @@
 				00E356EE1AD99517003FC87E /* CloudPaymentProjectTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		9762BB340CA63A52071FE615 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2C16284D12DBFA8F4069D188 /* Pods.debug.xcconfig */,
-				21A6F8A280D694DB874B63D2 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		A1A6B7A5256F8FF930642815 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0F3ED04D1D1BE22000814876 /* Security.framework */,
-				3B1475A9F29838C0A1F83D9E /* libPods.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -463,13 +398,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CloudPaymentProject" */;
 			buildPhases = (
-				3C7659B58342D083F107FCC9 /* Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				0B36533BA1E7DC59B96D24BB /* Embed Pods Frameworks */,
-				958BFFF9F842B3CD44B43FFD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -486,7 +418,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 730;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -518,10 +450,6 @@
 				{
 					ProductGroup = 00C302BC1ABCB91800DB3ED1 /* Products */;
 					ProjectRef = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
-				},
-				{
-					ProductGroup = 0F3ED03E1D1BE1C800814876 /* Products */;
-					ProjectRef = F32DD143C07F4A058CDE7BE7 /* RCTJPushModule.xcodeproj */;
 				},
 				{
 					ProductGroup = 78C398B11ACF4ADC00677621 /* Products */;
@@ -596,13 +524,6 @@
 			remoteRef = 00C302E31ABCB9EE00DB3ED1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		0F3ED0451D1BE1C800814876 /* libRCTJPushModule.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRCTJPushModule.a;
-			remoteRef = 0F3ED0441D1BE1C800814876 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		139105C11AF99BAD00B5F7CC /* libRCTSettings.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -653,7 +574,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				0F58F32D1D1386C900222C23 /* read_me.txt in Resources */,
+				0F21EB9E1D225F4D0001BF11 /* read_me.txt in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -675,51 +596,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
 		};
-		0B36533BA1E7DC59B96D24BB /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3C7659B58342D083F107FCC9 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		958BFFF9F842B3CD44B43FFD /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -735,10 +611,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F58F3421D138ABB00222C23 /* StringHelper.m in Sources */,
+				0F21EBAA1D2267060001BF11 /* JSBridgeManage.m in Sources */,
+				0F21EB8D1D225F310001BF11 /* StringHelper.m in Sources */,
+				0F21EB8C1D225F310001BF11 /* AppDelegate+ShareLogin.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				0F58F3261D12BE9100222C23 /* JSBridgeManage.m in Sources */,
-				0F58F33E1D138A4600222C23 /* AppDelegate+ShareLogin.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -777,11 +653,6 @@
 				INFOPLIST_FILE = CloudPaymentProjectTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudPaymentProject.app/CloudPaymentProject";
 			};
@@ -795,11 +666,6 @@
 				INFOPLIST_FILE = CloudPaymentProjectTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudPaymentProject.app/CloudPaymentProject";
 			};
@@ -807,16 +673,13 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C16284D12DBFA8F4069D188 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEAD_CODE_STRIPPING = NO;
-				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
-					"$(SRCROOT)/../node_modules/jpush-react-native/ios/RCTJPushModule/RCTJPushModule",
 				);
 				INFOPLIST_FILE = CloudPaymentProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -828,22 +691,18 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = CloudPaymentProject;
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21A6F8A280D694DB874B63D2 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
-					"$(SRCROOT)/../node_modules/jpush-react-native/ios/RCTJPushModule/RCTJPushModule",
 				);
 				INFOPLIST_FILE = CloudPaymentProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -855,7 +714,6 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = CloudPaymentProject;
 			};
 			name = Release;
@@ -880,7 +738,6 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -899,7 +756,6 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
-					"$(SRCROOT)/../node_modules/jpush-react-native/ios/RCTJPushModule/RCTJPushModule",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -940,7 +796,6 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
-					"$(SRCROOT)/../node_modules/jpush-react-native/ios/RCTJPushModule/RCTJPushModule",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
