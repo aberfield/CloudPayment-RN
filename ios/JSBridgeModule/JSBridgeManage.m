@@ -11,6 +11,7 @@
 #import "RCTBridge.h"
 #import "UIView+React.h"
 #import "RCTComponent.h"
+#import "TestViewController.h"
 
 
 
@@ -28,11 +29,18 @@ RCT_EXPORT_METHOD(addPaymentEvent:(NSDictionary*)orderInfoDic callback:(RCTRespo
   AppDelegate *app = (AppDelegate*)[UIApplication sharedApplication].delegate;
   [app payReqWith:model];
   app.payFinishBlock = ^(NSInteger payFinishCode){
+
     //因为没有填写相应微信APPId，所以跳转不到微信，这里也肯定是收不到回调的。
     callback(@[[NSString stringWithFormat:@"%ld",(long)payFinishCode]]);
   };
   //如果设置了微信相关信息，可以把这里给注释掉呢
-//  callback(@[@"0"]);
+  callback(@[@"0"]);
+  
+//  [app.window makeKeyAndVisible];
+//  UIViewController *currentVC = app.window.rootViewController;
+//  [currentVC presentViewController:[[TestViewController alloc] init] animated:YES completion:^{
+//    NSLog(@"111");
+//  }];
   
 }
 

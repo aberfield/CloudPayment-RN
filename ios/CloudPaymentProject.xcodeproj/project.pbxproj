@@ -22,6 +22,7 @@
 		0F21EBA41D2260370001BF11 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F21EBA31D2260370001BF11 /* libsqlite3.0.tbd */; };
 		0F21EBA61D2260500001BF11 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F21EBA51D2260500001BF11 /* CoreTelephony.framework */; };
 		0F21EBAA1D2267060001BF11 /* JSBridgeManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F21EBA91D2267060001BF11 /* JSBridgeManage.m */; };
+		0F614DB81D334B3000AC8C13 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F614DB71D334B3000AC8C13 /* TestViewController.m */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
@@ -138,6 +139,8 @@
 		0F21EBA51D2260500001BF11 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		0F21EBA81D2267060001BF11 /* JSBridgeManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBridgeManage.h; sourceTree = "<group>"; };
 		0F21EBA91D2267060001BF11 /* JSBridgeManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBridgeManage.m; sourceTree = "<group>"; };
+		0F614DB61D334B3000AC8C13 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		0F614DB71D334B3000AC8C13 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* CloudPaymentProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudPaymentProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -303,6 +306,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				0F614DB61D334B3000AC8C13 /* TestViewController.h */,
+				0F614DB71D334B3000AC8C13 /* TestViewController.m */,
 			);
 			name = CloudPaymentProject;
 			sourceTree = "<group>";
@@ -611,6 +616,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F614DB81D334B3000AC8C13 /* TestViewController.m in Sources */,
 				0F21EBAA1D2267060001BF11 /* JSBridgeManage.m in Sources */,
 				0F21EB8D1D225F310001BF11 /* StringHelper.m in Sources */,
 				0F21EB8C1D225F310001BF11 /* AppDelegate+ShareLogin.m in Sources */,
